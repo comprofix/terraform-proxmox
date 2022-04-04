@@ -1,0 +1,18 @@
+#
+# pm_api_url = URL for your Proxmox Server
+#
+# pm_user = Proxmox User (root@pam)
+#
+# pm_password = Proxmox password
+#
+# vm_count = The number of VMs to create
+#
+# ip_address = Last octect of the IP Range to give static IP via Cloud-Init.
+# Update ipconfig0 line in main.tf with correct starting block of IP Range and Gateway Address
+
+
+pm_api_url        = "https://<promox_ip>:8006/api2/json"
+pm_user           = "<user>"
+pm_password       = "<password>"
+vm_count             = 3
+ip_address           = 90
